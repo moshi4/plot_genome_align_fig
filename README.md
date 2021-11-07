@@ -2,10 +2,11 @@
 
 Automated genome alignment figure plot tool using progressiveMauve & genoPlotR.  
 
-Genome alignment figure is output from input genome sequence files(Genbank|Fasta format).  
+Genome alignment figure is output from input genome sequence files.  
+Genbank or Fasta format genome sequence is available as input.  
 
 ![E.coli fig02](./images/ecoli_example02.jpg)  
-Fig. 6 *E.coli* genome alignment visualization result
+Fig. 6 *E.coli* genome alignment visualization result example
 
 ## Requirements
 
