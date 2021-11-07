@@ -22,7 +22,7 @@ Following dependencies are required.
 
 ### Basic Command
 
-    python plot_genome_align_fig.py -i [genome_files_dir] -t [genome_tree_file] -o [outdir] 
+    python plot_genome_align_fig.py -i [genome_files_dir] -t [species_tree_file] -o [outdir] 
 
 ### Options
 
@@ -34,7 +34,7 @@ Following dependencies are required.
     --height        Plot height inch (Default: 7)
     --tree_width    Plot tree width inch (Default: 2)
 
->:warning: *Input file name* and *input newick tree leaf name* must be match.
+>:warning: *Input file name* and *input newick species tree leaf name* must be match.
 
 ### Example Command
 
@@ -42,6 +42,7 @@ Following dependencies are required.
 
     python plot_genome_align_fig.py -i example/ecoli/genbank -t example/ecoli/ecoli.nwk -o ecoli_plot1
 
+genoPlotR_genome_align.jpg  
 ![E.coli fig01](images/ecoli_example01.jpg)  
 
 #### Example of 6 *E.coli* species genome (Fasta)
@@ -50,10 +51,12 @@ Change `width`, `height`, `tree_width` parameters.
 
     python plot_genome_align_fig.py -i example/ecoli/fasta -t example/ecoli/ecoli.nwk -o ecoli_plot2 --width 12 --height 5 --tree_width 4
 
+genoPlotR_genome_align.jpg
 ![E.coli fig02](images/ecoli_example02.jpg)  
 
 #### Example of 7 *Mycoplasma* species genome
 
     python plot_genome_align_fig.py -i example/mycoplasma/genbank -t example/mycoplasma/mycoplasma.nwk -o mycoplasma_plot
 
+genoPlotR_genome_align.jpg
 ![Mycoplasma fig01](images/mycoplasma_example01.jpg)  
