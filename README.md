@@ -1,9 +1,10 @@
-# Plot genome align fig (Use progressiveMauve & genoPlotR)
+# Plot genome alignment figure tool
 
 Automated genome alignment figure plot tool using progressiveMauve & genoPlotR.  
 
 Genome alignment figure is output from input genome sequence files(Genbank|Fasta format).  
 
+![E.coli fig02](./images/ecoli_example02.jpg)  
 Fig. 6 *E.coli* genome alignment visualization result
 
 ## Requirements
@@ -40,10 +41,18 @@ Following dependencies are required.
 
     python plot_genome_align_fig.py -i example/ecoli/genbank -t example/ecoli/ecoli.nwk -o ecoli_plot1
 
+![E.coli fig01](images/ecoli_example01.jpg)  
+
 #### Example of 6 *E.coli* species genome (Fasta)
 
+Change `width`, `height`, `tree_width` parameters.  
+
     python plot_genome_align_fig.py -i example/ecoli/fasta -t example/ecoli/ecoli.nwk -o ecoli_plot2 --width 12 --height 5 --tree_width 4
+
+![E.coli fig02](images/ecoli_example02.jpg)  
 
 #### Example of 7 *Mycoplasma* species genome
 
     python plot_genome_align_fig.py -i example/mycoplasma/genbank -t example/mycoplasma/mycoplasma.nwk -o mycoplasma_plot
+
+![Mycoplasma fig01](images/mycoplasma_example01.jpg)  
