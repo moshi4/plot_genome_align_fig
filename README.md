@@ -14,9 +14,17 @@ This tool is implemented in Python3 & R (Tested on Ubuntu20.04).
 
 Following dependencies are required.
 
-- `BioPython` (Python library)
-- `genoPlotR`, `ape`, `ade4` (R library)
-- `progressiveMauve` (External dependencies)
+- `BioPython` (Python library)  
+
+      pip install biopython
+
+- `genoPlotR`, `ape`, `ade4` (R library)  
+
+      install.packages(c("genoPlotR", "ape", "ade4"), dependencies = TRUE)
+
+- `progressiveMauve` (External binary)
+
+      sudo apt install progressivemauve
 
 ## Command Usage
 
