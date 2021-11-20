@@ -69,7 +69,7 @@ def get_args() -> argparse.Namespace:
         required=True,
         type=Path,
         help="Input genome Genbank or Fasta files directory (*.gbk|*.fa)",
-        metavar="",
+        metavar="I",
     )
     parser.add_argument(
         "-o",
@@ -77,7 +77,7 @@ def get_args() -> argparse.Namespace:
         required=True,
         type=Path,
         help="Output directory",
-        metavar="",
+        metavar="O",
     )
     parser.add_argument(
         "-t",
@@ -85,7 +85,7 @@ def get_args() -> argparse.Namespace:
         required=True,
         type=Path,
         help="Newick species tree file",
-        metavar="",
+        metavar="T",
     )
     default_plot_width = 10
     parser.add_argument(
