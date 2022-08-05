@@ -1,5 +1,7 @@
 # Plot genome alignment figure tool
 
+> :warning: **I have developed a new python package [pyGenomeViz](https://github.com/moshi4/pyGenomeViz) that enables visualization of genome alignment by progressiveMauve. I recommend using that for now.**
+
 Automated genome alignment figure plot tool using progressiveMauve & genoPlotR.  
 
 Genome alignment figure is output from input genome sequence files.  
